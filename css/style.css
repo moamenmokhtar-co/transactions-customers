@@ -1,0 +1,117 @@
+body {
+    background-color: #F5F6FC;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+nav {
+    background-color: #50338f;
+}
+
+nav i {
+    color: #F5F6FC;
+}
+
+@media (min-width:992px) {
+    .input-container {
+        width: 85%;
+        margin-inline: auto;
+    }
+}
+
+
+
+.input-container input {
+    padding-left: 3rem;
+    padding-right: 9rem;
+}
+
+.input-container>i {
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+}
+
+
+.form-control:focus {
+    color: #131313;
+    background-color: #18181808;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(80, 50, 144, 0.216);
+}
+
+.input-container ul {
+    top: 110%;
+    left: -5%;
+    right: -5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.input-container ul li {
+    cursor: pointer;
+}
+
+.input-container ul li:hover {
+    background-color: #F7F7FC;
+}
+
+#filter {
+    color: #50338f;
+}
+
+#filterArrow {
+    transition: .5s;
+}
+
+
+td {
+    vertical-align: middle;
+}
+
+.chart-container {
+    background-color: #131313;
+    top: 5rem;
+    left: 7rem;
+    right: 7rem;
+    /* min-height: 80vh; */
+    border-radius: 8px;
+    padding: 20px;
+}
+
+
+
+.chart-container i {
+    top: 15px;
+    left: 101%;
+    cursor: pointer;
+}
+
+@media (max-width:576px) {
+    .chart-container {
+        left: 0;
+        right: 0;
+    }
+
+    .chart-container i {
+    top: 25px;
+
+        left: 90%;
+        color: #fff;
+    }
+
+}
+
+.chart-container canvas {
+    width: 100% !important;
+}
+
+.bg-empty {
+    height: 20rem;
+    background-image: url(../images/Empty-bro.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
